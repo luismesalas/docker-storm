@@ -5,4 +5,4 @@ drpc.servers:
   - "%nimbus%"
 drpc.port: 3772
 drpc.invocations.port: 3773
-nimubs.seeds: "%nimbus%"
+nimbus.seeds: "%nimbus%"
