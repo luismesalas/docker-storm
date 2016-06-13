@@ -1,4 +1,4 @@
-FROM luismesalas/base
+FROM luismesalas/base:1.0.0
 
 MAINTAINER luismesalas
 
