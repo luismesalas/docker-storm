@@ -1,9 +1,9 @@
-FROM luismesalas/base:1.7.0
+FROM luismesalas/base:1.8.0
 
 MAINTAINER luismesalas
 
 ARG MIRROR=http://apache.mirrors.pair.com
-ARG VERSION=0.10.1
+ARG VERSION=1.0.1
 
 RUN wget -q -O - $MIRROR/storm/apache-storm-$VERSION/apache-storm-$VERSION.tar.gz | tar -xzf - -C /opt
 
