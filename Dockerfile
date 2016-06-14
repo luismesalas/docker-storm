@@ -3,7 +3,7 @@ FROM luismesalas/base:1.7.0
 MAINTAINER luismesalas
 
 ARG MIRROR=http://apache.mirrors.pair.com
-ARG VERSION=0.9.6
+ARG VERSION=0.10.1
 
 RUN wget -q -O - $MIRROR/storm/apache-storm-$VERSION/apache-storm-$VERSION.tar.gz | tar -xzf - -C /opt
 
